@@ -1,11 +1,11 @@
 //! Provides the higher order `IO` function [`interact`](crate::interact) for prototyping command line interfaces.
 //!
-//! *A small tutorial package for Haskell refugees.*
+//! *A small tutorial package for Haskell refugees adapted from this lovely [walkthrough](https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO#IO).*
 //!
 //! Interact takes a function of type `Fn(String) -> String`, runs it on `stdin`
 //! and prints the result to `stdout`.
 //!
-//! # Examples:
+//! # Examples
 //! ## `cat`
 //! ```
 //! use interakt::interact;

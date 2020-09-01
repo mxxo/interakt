@@ -1,4 +1,4 @@
-//! Provides the higher order `IO` function `interact` for prototyping command line interfaces.
+//! Provides the higher order `IO` function [`interact`](crate::interact) for prototyping command line interfaces.
 //!
 //! *A small tutorial package for Haskell refugees.*
 //!

@@ -1,9 +1,9 @@
 [package]
 name = "interakt"
+description = "Provides the higher order `IO` function `interact` for prototyping command line interfaces."
 version = "0.1.0"
 authors = ["Max Orok <maxwellorok@gmail.com>"]
+repository = "https://github.com/mxxo/interakt"
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+exclude = ["src/bin/*"]
+license = "MIT OR Apache-2.0"
